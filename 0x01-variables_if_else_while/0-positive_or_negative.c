@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* function main - assigns a random number to int n
+/**
+* main - assigns a random number to int n
 * for numbers > zero, n is positive
 * for numbers < zero, n is negative
 * for numbers == 0 n is zero
