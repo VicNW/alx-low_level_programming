@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/** main - prints positive, zero, or negative.
+* for numbers > zero, n is positive,
+* for numbers < zero, n is negative,
+* for numbers == 0 n is zero.
+*/
 int main(void)
-/*The code should give the expected outputs:
-positive, zero, negative.*/
 {
 	int n;
 
