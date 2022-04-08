@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - prints positive, zero, or negative.
+/*
+* main - prints positive, zero, or negative.
 * for numbers > zero, n is positive,
 * for numbers < zero, n is negative,
 * for numbers == 0 n is zero.
