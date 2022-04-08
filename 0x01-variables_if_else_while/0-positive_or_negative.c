@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-i/*
+/*
 * function main - assigns a random number to int n
 * for numbers > zero, n is positive
 * for numbers < zero, n is negative
