@@ -7,7 +7,7 @@
 * for numbers > zero, n is positive
 * for numbers < zero, n is negative
 * for numbers == 0 n is zero
-* return: Always 0 (success)
+* Return: Always 0 (success)
 */
 int main(void)
 {
