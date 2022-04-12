@@ -3,9 +3,7 @@
 /**
 * print_times_table - prints the times table
 * @n: integer for which the times table will be printed
-*
 * Description: prints the times table
-*
 * Return: void
 */
 
@@ -20,7 +18,6 @@ void print_times_table(int n)
 			for (column = 0; column <= n; column++)
 			{
 				product = row * column;
-
 				if (column == 0)
 					_putchar('0');
 				else if (product < 10)
@@ -38,7 +35,6 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar((product / 10) % 10 + '0');
 					_putchar(product % 10 + '0');
-
 				}
 				else if (product > 99 && product < 1000)
 				{
