@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	putchar("_putchar");
+	putchar(char task0);
 	putchar("\n");
 	return (0);
 }

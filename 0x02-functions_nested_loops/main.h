@@ -7,6 +7,8 @@
 
 int main(void)
 {
+	char task0[] = "_putchar";
+
 	int _putchar(char c);
 	return (0);
 }
