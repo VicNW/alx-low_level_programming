@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* _strncpy - copies src to dest
-* @src: input string
+* *_strncpy - copies src to dest
 * @dest: copy folder
 * @n: number of iterations or dest
 * Return: dest
@@ -22,5 +21,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return dest;
+	return (dest);
 }
