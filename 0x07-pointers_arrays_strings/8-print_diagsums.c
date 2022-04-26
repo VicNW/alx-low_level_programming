@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
 
-/**<F12>
-* _diagsums - prints the diagonal sum of two square matrices
-* @a: array pointer
-* @size: size of square matrix
-* Return: int
-*/
+/**
+ * print_diagsums - prints sum of #'s in diagnols of square
+ * @a: input square array
+ * @size: size of one dimension in array
+ * Return: void
+ */
 
 void print_diagsums(int *a, int size)
 {
