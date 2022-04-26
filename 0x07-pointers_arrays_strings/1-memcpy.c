@@ -5,7 +5,7 @@
 * @dest: pointer to destination array
 * @src: pointer to source array
 * @n: number of iterations
-* Return: character array
+* Return: dest
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -16,4 +16,5 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	{
 		dest[i] = src[i];
 	}
+	return (dest);
 }
