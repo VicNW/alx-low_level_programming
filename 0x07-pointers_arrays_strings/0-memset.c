@@ -2,9 +2,10 @@
 
 /**
 * _memset - fills memory with a constant byte
+* @s: input pointer to string
 * @b: input char to b used to fill the memory
 * @n: number of times to fill the memory
-* Return: character
+* Return: pointer to string
 */
 
 
