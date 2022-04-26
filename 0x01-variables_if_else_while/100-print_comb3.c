@@ -8,14 +8,13 @@
 int main(void)
 {
 
-	int i, e;
+	int e, i;
 
-	i = 48;
 	e = 48;
+	i = 48;
 
 	while (e < 58)
 	{
-
 		i = 48;
 		while (i < 58)
 		{
