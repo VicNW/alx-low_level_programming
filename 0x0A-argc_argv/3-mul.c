@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
 * main - this function prints  the result of the multiplication.
 * @argc: length of arguments passed in the function
@@ -9,16 +10,15 @@
 
 int main(int argc, char *argv[])
 {
-	int mul = atoi(argv[1]) * atoi(argv[2]);
+	int mul;
+
+	mul = atoi(argv[1]) * atoi(argv[2]);
 	
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		printf("%d\n", mul);
-	}
+	printf("%d\n", mul);
 	return (0);
 }
