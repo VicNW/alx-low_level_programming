@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - this function prints th efile name.
+* main - this function prints the number of passed argument.
 * @argc: length of arguments passed in the function
 * @argv: array of strings passed in the command line
 * Return: zero, successful
