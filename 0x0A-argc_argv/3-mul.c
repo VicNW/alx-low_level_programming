@@ -2,23 +2,24 @@
 #include <stdlib.h>
 
 /**
-* main - this function prints  the result of the multiplication.
-* @argc: length of arguments passed in the function
-* @argv: array of strings passed in the command line
-* Return: zero, successful
-*/
-
+ * main - multiplies two numbers
+ * @argc: number of arguments passed to the function
+ * @argv: argument vector of pointers to strings
+ *
+ * Return: 0 if no errors, else 1
+ */
 int main(int argc, char *argv[])
 {
-	int mul;
+	int a, b, c;
 
-	mul = atoi(argv[1]) * atoi(argv[2]);
-	
 	if (argc != 3)
 	{
-		printf("Error\n");
+		puts("Error");
 		return (1);
 	}
-	printf("%d\n", mul);
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	c = a * b;
+	printf("%d\n", c);
 	return (0);
 }
