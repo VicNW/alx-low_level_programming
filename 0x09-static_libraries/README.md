@@ -1,1 +1,1 @@
-Tasks on static Libraries
+static_library
