@@ -3,4 +3,4 @@
 
 #define SIZE 1024
 
-#undef
+#endif /*_0_OBJECT_LIKE_MACRO_H_*/
