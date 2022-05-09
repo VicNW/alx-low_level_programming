@@ -4,8 +4,8 @@
 /**
 * struct dog - this structure defines the dog
 * @name: name of the dog
-* age: age of the dog
-* owner: owner of the dog
+* @age: age of the dog
+* @owner: owner of the dog
 *
 * Description: This is a structure in the header file that sets the
 * parameters of the dog.
