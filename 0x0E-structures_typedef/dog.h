@@ -2,15 +2,11 @@
 #define _DOG_H_
 
 /**
-* struct dog - this structure defines the dog
-* @name: name of the dog
-* @age: age of the dog
-* @owner: owner of the dog
-*
-* Description: This is a structure in the header file that sets the
-* parameters of the dog.
-*/
-
+ * struct dog - information about dogs
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
+ */
 struct dog
 {
 	char *name;
@@ -19,9 +15,8 @@ struct dog
 };
 
 /**
-* dog_t - Typedef for struct dog
-*/
-
+ * dog_t - Typedef for struct dog
+ */
 typedef struct dog dog_t;
 
 int _putchar(char);
