@@ -1,8 +1,7 @@
 #include "function_pointers.h"
 
 /**
-* int_index returns the index of the first element for which the 
-* cmp function does not return 0
+* int_index - searches for an integer
 * @array: pointer to an array
 * @size: number of elements in the array
 * @cmp: pointer to a function to be used to compare values
@@ -12,17 +11,18 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	int i, r;
 
-	if (size <= 0)
-		return (-1);
-	for (i = 0; i < size; i++)
+	if (size > 0 && array && cmp)
 	{
-		if array[i] == com()
+		for (i = 0; i < size; i++)
 		{
-			exit(i)
+			r = cmp(array[i]);
+			if (r)
+				break;
 		}
-		return (-1)
+		if (i < size)
+			return (i);
 	}
+	return (-1);
 }
-
